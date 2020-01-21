@@ -36,6 +36,7 @@ gulp.task("css", function () {
 
 gulp.task("server", function () {
   server.init({
+    browser: 'google chrome',
     server: "source/",
     notify: false,
     open: true,
